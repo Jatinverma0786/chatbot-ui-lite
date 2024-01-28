@@ -101,7 +101,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chatbot UI</title>
+        <title>Quatfit AI</title>
         <meta
           name="description"
           content="Text generation testing of Paramvriksha AI model"
