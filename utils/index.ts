@@ -27,7 +27,7 @@ export const OpenAIStream = async (messages: Message[]) => {
   });
 
   if (res.status !== 200) {
-    throw new Error("OpenAI API returned an error");
+    throw new Error("QuatfitAI returned an error");
   }
 
   const stream = new ReadableStream({
